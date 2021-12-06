@@ -34,6 +34,7 @@ class _AdminDashboardState extends State<AdminDashboard> {
         title: const Text(
           "Dashboard",
         ),
+        backgroundColor: Colors.red,
         actions: [
           IconButton(
             onPressed: () {

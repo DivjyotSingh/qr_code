@@ -30,8 +30,9 @@ class _LoginScreenState extends State<LoginScreen> {
       appBar: AppBar(
         centerTitle: true,
         title: const Text(
-          "QResent",
+          "Thapar QR Based Attendance System",
         ),
+        backgroundColor: Colors.red,
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -128,7 +129,7 @@ class _LoginScreenState extends State<LoginScreen> {
             Material(
               elevation: 5,
               borderRadius: BorderRadius.circular(30),
-              color: Colors.blueAccent,
+              color: Colors.redAccent,
               child: MaterialButton(
                 onPressed: () {
                   signIn(emailController.text, passwordController.text);
@@ -143,6 +144,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
                   ),
+                  
                 ),
               ),
             ),
