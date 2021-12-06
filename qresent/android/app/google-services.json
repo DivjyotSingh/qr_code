@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "312931418962",
-    "project_id": "qresent-29065",
-    "storage_bucket": "qresent-29065.appspot.com"
+    "project_number": "429651674266",
+    "project_id": "qr-code-attendance-93c63",
+    "storage_bucket": "qr-code-attendance-93c63.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:312931418962:android:ac101ee20a06623d41b08b",
+        "mobilesdk_app_id": "1:429651674266:android:ddd166137b2a3ac2170b23",
         "android_client_info": {
           "package_name": "com.example.qresent"
         }
       },
       "oauth_client": [
         {
-          "client_id": "312931418962-reufh2h95kgmc1dndisjtb4li3vi6umj.apps.googleusercontent.com",
+          "client_id": "429651674266-sksjt8b4slm0q1f3o800lliccrfgjrqd.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDMY7BwIEcjAbrd7FUaiSqLryxf-DkXjoQ"
+          "current_key": "AIzaSyAwAnuIwmCEXb2bltYrFi20SCFc9bckDyM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "312931418962-reufh2h95kgmc1dndisjtb4li3vi6umj.apps.googleusercontent.com",
+              "client_id": "429651674266-sksjt8b4slm0q1f3o800lliccrfgjrqd.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
