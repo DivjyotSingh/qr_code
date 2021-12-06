@@ -41,9 +41,9 @@ jobs:
       run: flutter format --set-exit-if-changed .
     
     # Statically analyze the Dart code for any errors.
-    - name: Analyze project source
-      working-directory: qresent
-      run: flutter analyze .
+    # - name: Analyze project source
+    #   working-directory: qresent
+    #   run: flutter analyze .
     
     # Run widget tests for our flutter project.
     - name: Test Project
@@ -51,6 +51,12 @@ jobs:
       run: flutter test
     
     # Build apk.
-    - name: Build apl
+    - name: Build apk
       working-directory: qresent
       run: flutter build apk
+
+    # Release apk
+    - uses: actions/upload-artifact@v1
+      with:
+        name: release-apk
+        path: qresent/build/app/outputs/flutter-apk/app-release.apk
