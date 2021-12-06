@@ -1,13 +1,10 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
 import 'package:qresent/screens/admin_dashboard.dart';
 import 'package:qresent/screens/courses_screen.dart';
 import 'package:qresent/screens/generate_qr.dart';
 import 'package:qresent/screens/register_screen.dart';
 import 'package:qresent/screens/teacher_dashboard.dart';
-=======
->>>>>>> ea8e5fc030095b61d30533ade2036e8ab1a0a724
 import 'screens/login_screen.dart';
 
 Future<void> main() async {
@@ -23,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AdminDashboard(),
+      home: LoginScreen(),
     );
   }
 }
